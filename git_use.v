@@ -1,4 +1,4 @@
-1、本地删除了文件，且与远程同步
+1、本地删除/修改了文件，且与远程同步
 git status // 非必须
 git commit -am '提交注释'
 git push origin master
