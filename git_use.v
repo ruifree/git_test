@@ -26,4 +26,15 @@ git push -u origin master
 // 第一次推送master分支时，加上了 –u参数，Git会将本地的master分支内容推送的远程新的master分支，
 // 还会把2个master分支关联起来，在以后的推送或者拉取时就可以简化操作。
 git ls-files			// 查看暂存区文件
+git remote -v			// 查看远程地址，会显示连接方式
+git remote rm origin		// 移除远程地址或连接方式
+git remote add origin git地址	// 添加远程地址或连接方式
+
+
+
+
+
+
+
+
 
