@@ -30,7 +30,8 @@ git remote -v			// 查看远程地址，会显示连接方式
 git remote rm origin		// 移除远程地址或连接方式
 git remote add origin git地址	// 添加远程地址或连接方式
 
-
+//只需要在命令行后面加--depth=1，就会只clone最后一次commit的内容
+git clone https://github.com/Wuchenwcf/MyCode.git --depth==1
 
 
 
